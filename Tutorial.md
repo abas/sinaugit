@@ -1,4 +1,4 @@
-# TUTORIAL DASAR GIT
+# TUTORIAL GIT for AWAK DEWE
 
 ### Instalasi Git
 
@@ -21,6 +21,9 @@ dengan begitu kita sudah menginisialisasi folder **_project_** untuk menggunakan
 ```
 	$ git clone %url
 ``` 
+> __*git clone*__, seperti nama nya berfungsi untuk mengclone sebuah project ke local
+> atau bahasa awamnya mendownlaod repositori / project keLocal
+
 example :
 ```
 	$ git clone https://github.com/ahmadbasir/sinaugit.git
