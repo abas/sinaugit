@@ -5,7 +5,7 @@
 ```
 	$ git init
 ```
-> **_git init_** adalah perintah untuk **_menginisialisasi_** direktori atau folder
+> <span style="color:red">git init</span> adalah perintah untuk **_menginisialisasi_** direktori atau folder
 > misalkan kita mempunyai folder bernama **_project_** kemudian ingin menginisialisasi
 > git kedalamnya maka kita perlu masuk dulu ke dalam foldernya
 ```
