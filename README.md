@@ -1,4 +1,4 @@
-# TUTORIAL GIT for AWAK DEWE
+# Tutorial Git __Dasar__ :: madeInDewe
 
 ### Instalasi Git
 
