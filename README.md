@@ -45,9 +45,7 @@ kemudia kalian merubah menjadi :
 ```
 > jika kalian melakukan ```$ git status``` maka akan muncul informasi
 
-....
 	<font style="color:red">modified : .ubah1</font>
-....
 
 ### Penambahan Track-File
 
@@ -61,4 +59,4 @@ kemudia kalian merubah menjadi :
 ```
 maka file __.gaje2__ akan automatis terTrack jika ada perubahan
 
-> menyangkut dari perintah ``` $ git status``` yang tulisan <span style="color:red;">__modified : %file_name__</span> maka akan berubah menjadi hijau <span style="color:green;">__modified : %file_name__</span>, yang artinya file tersebut sudah ditambahkan.
+> menyangkut dari perintah ``` $ git status``` yang tulisan <span style="color:red;">__modified : %file_name__</span> maka akan berubah menjadi hijau <span style="color:#f0f;">__modified : %file_name__</span>, yang artinya file tersebut sudah ditambahkan.
