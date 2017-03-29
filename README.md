@@ -29,7 +29,7 @@ example :
 	$ git clone https://github.com/ahmadbasir/sinaugit.git
 ```
 
-### pengoprasian
+### Penambahan Track-File 
 
 ```
 	$ git add %name_file
