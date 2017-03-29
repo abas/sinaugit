@@ -29,7 +29,28 @@ example :
 	$ git clone https://github.com/ahmadbasir/sinaugit.git
 ```
 
-### Penambahan Track-File 
+### Cek-Updated file
+```
+	$ git status
+```
+> ketika kita melakukan perubahan pada sebuah file, atau ingin mengetahui fila apasaja yang telah kita rubah, maka __$ git status__ adalah perintah untuk melakukannya
+
+misalkan kita memiliki file __.ubah1__ dengan isi sebagai berikut :
+-------------------------------
+! ini isi 1
+-------------------------------
+kemudia kalian merubah menjadi :
+-------------------------------
+! menjadi isi 2
+-------------------------------
+
+> jika kalian melakukan ```$ git status``` maka akan muncul informasi
+
+....
+	<red style="color:red">modified : .ubah1</red>
+....
+
+### Penambahan Track-File
 
 ```
 	$ git add %name_file
@@ -40,3 +61,5 @@ example :
 	$ git add .gaje2
 ```
 maka file __.gaje2__ akan automatis terTrack jika ada perubahan
+
+> menyangkut dari perintah ``` $ git status``` yang tulisan <red style="color:red;">__modified : %file_name__</red> maka akan berubah menjadi hijau <green style="color:green;">__modified : %file_name__</green>, yang artinya file tersebut sudah ditambahkan. 
