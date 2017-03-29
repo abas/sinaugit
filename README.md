@@ -58,3 +58,10 @@ jika kalian melakukan ```$ git status``` maka akan muncul informasi ```modified 
 maka file __.gaje2__ akan automatis terTrack jika ada perubahan
 
 > menyangkut dari perintah ``` $ git status``` yang tulisan ```__modified : %file_name__``` seletah di ```$ git add ..``` maka tulisan akan berubah menjadi hijau yang artinya file tersebut sudah ditambahkan.
+
+
+### Commit message .updating repositori
+```
+	$ git commit -m 'ini pesan'
+```
+> ```$ git commit``` merupakan perintah untuk mengirim notifikasi sekaligus memferifikasi apa yang berubah pada repositori
