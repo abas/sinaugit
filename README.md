@@ -65,3 +65,4 @@ maka file __.gaje2__ akan automatis terTrack jika ada perubahan
 	$ git commit -m 'ini pesan'
 ```
 > ```$ git commit``` merupakan perintah untuk mengirim notifikasi sekaligus memferifikasi apa yang berubah pada repositori
+__perlu dicatat__ setiap perubahan pada repositori yang ingin di __push__ harus melakukan ```git commit``` terlbih dahulu. karena git commit disini memberitahukan apa saja yang telah berubah. jadi ketika kita sedang mengerjakan sebuah proyek bersama kita tahu dimana kita mengubah file ataupun membuat direktori baru.
