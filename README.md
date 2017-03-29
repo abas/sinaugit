@@ -45,7 +45,7 @@ kemudia kalian merubah menjadi :
 ```
 > jika kalian melakukan ```$ git status``` maka akan muncul informasi
 
-	<font style="color:red">modified : .ubah1</font>
+	<span style="color:red">modified : .ubah1</span>
 
 ### Penambahan Track-File
 
