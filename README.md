@@ -67,3 +67,23 @@ maka file __.gaje2__ akan automatis terTrack jika ada perubahan
 > ```$ git commit``` merupakan perintah untuk mengirim notifikasi sekaligus memferifikasi apa yang berubah pada repositori
 
 __perlu dicatat__ setiap perubahan pada repositori yang ingin di __push__ harus melakukan ```git commit``` terlbih dahulu. karena git commit disini memberitahukan apa saja yang telah berubah. jadi ketika kita sedang mengerjakan sebuah proyek bersama kita tahu dimana kita mengubah file ataupun membuat direktori baru.
+
+
+### Branching 'Pencabangan'
+```
+	$ git branch
+	$ git branch %new-branch
+	$ git branch -d %deleted-branch
+```
+> setiap repository pasti memiliki cabang, dimana cabang utama adalah ```__master__``` bracnh, master branch adalah cabang utama ketika membuat sebuah repositori baru ```by default```
+
+untuk mengecek kita sedang berada dibranch mana bisa diketikan perintah
+```
+	$ git status
+```
+maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch yang telah kita buat bisa dengan perintah ```__$ git branch__``` kemudian untuk penambahan branch baru kita cukup menambahkan nama branch setelah command __branch__ misalnya kita ingin menambahkan branch dengan nama __nganu__ cukup ketikan perintah
+
+```
+	$ git branch __nganu__
+```
+> voila! kita telah menambah kan branch baru dengan nama ```__nganu__```, bisa dicek dengan perintah ```$ git branch```
