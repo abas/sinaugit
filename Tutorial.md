@@ -99,3 +99,4 @@ maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch y
 ```
 	$ git checkout editer
 ```
+Maka kita sudah berpindah pada branch ```editor``` ada beberapa rule dalam penggunaan branch. membahas point sebelumnya __```Branching```___ digunakan untuk memanage tugas/project agar terstruktur, biasanya dalam melakukan project dilakukan banyak Pencabangan / ```Branching``` hal ini bertujuan agar tidak ```saling tumbuk	```
