@@ -58,7 +58,7 @@ jika kalian melakukan ```$ git status``` maka akan muncul informasi ```modified 
 ```
 maka file __.gaje2__ akan automatis terTrack jika ada perubahan
 
-> menyangkut dari perintah ``` $ git status``` yang tulisan ```**modified : %file-name**``` seletah di ```$ git add ..``` maka tulisan akan berubah menjadi hijau yang artinya file tersebut sudah ditambahkan.
+> menyangkut dari perintah ``` $ git status``` yang tulisan **```modified : %file-name```** seletah di ```$ git add ..``` maka tulisan akan berubah menjadi hijau yang artinya file tersebut sudah ditambahkan.
 
 
 ### Commit message .updating repositori
@@ -76,7 +76,7 @@ __perlu dicatat__ setiap perubahan pada repositori yang ingin di __push__ harus 
 	$ git branch %new-branch
 	$ git branch -d %deleted-branch
 ```
-> setiap repository pasti memiliki cabang, dimana cabang utama adalah ```__master__``` bracnh, master branch adalah cabang utama ketika membuat sebuah repositori baru ```by default```
+> setiap repository pasti memiliki cabang, dimana cabang utama adalah **```master```** bracnh, master branch adalah cabang utama ketika membuat sebuah repositori baru ```by default```
 
 untuk mengecek kita sedang berada dibranch mana bisa diketikan perintah
 ```
@@ -85,9 +85,9 @@ untuk mengecek kita sedang berada dibranch mana bisa diketikan perintah
 maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch yang telah kita buat bisa dengan perintah ```__$ git branch__``` kemudian untuk penambahan branch baru kita cukup menambahkan nama branch setelah command __branch__ misalnya kita ingin menambahkan branch dengan nama __nganu__ cukup ketikan perintah
 
 ```
-	$ git branch __nganu__
+	$ git branch nganu
 ```
-> voila! kita telah menambah kan branch baru dengan nama ```__nganu__```, bisa dicek dengan perintah ```$ git branch```
+> voila! kita telah menambah kan branch baru dengan nama **```nganu```**, bisa dicek dengan perintah ```$ git branch```
 
 
 ### Perpindahan Branch
@@ -99,12 +99,12 @@ maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch y
 ```
 	$ git checkout editer
 ```
-Maka kita sudah berpindah pada branch ```editor``` ada beberapa rule dalam penggunaan branch. membahas point sebelumnya __```Branching```___ digunakan untuk memanage tugas/project agar terstruktur, biasanya dalam melakukan project dilakukan banyak Pencabangan / ```Branching``` hal ini bertujuan agar tidak ```saling tumbuk	```
+Maka kita sudah berpindah pada branch ```editor``` ada beberapa rule dalam penggunaan branch. membahas point sebelumnya __```Branching```___ digunakan untuk memanage tugas/project agar terstruktur, biasanya dalam melakukan project dilakukan banyak Pencabangan / ```Branching``` hal ini bertujuan agar tidak ```saling tumbuk```
 
 > ada beberapa perintah unik dalam ```$ git checkout``` yaitu melakukan perpindahan branch sekaligus menambah branch baru. berikut command line nya
 
 ```
-	$ git checkout **-b** %new-branch
+	$ git checkout -b %new-branch
 ```
 misalkan repositori telah memiliki 2 buah bracnh, yaitu :
 >branch
@@ -115,7 +115,7 @@ misalkan repositori telah memiliki 2 buah bracnh, yaitu :
 dan kita ingin menambahkan branch baru, kita tidak perlu melakukan proses dua kali dengan ```$ git bracnh %new-branch``` kemudian ```$ git checkout %name-branch``` melainkan dengan melakukan perintah berikut :
 
 ```
-	$ git checkout contributor
+	$ git checkout -b contributor
 ```
 disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automatis checkout ke branch tersebut, bisa di cek dengan melakukan perintah **```$ git branch```**
 
@@ -127,6 +127,5 @@ disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automati
 
 kemudian coba melakukan perintah ```$ git status```
 >status on branch
-* contributor
-
-noting to commit bla bloa bla...
+>* contributor
+>noting to commit bla bloa bla...
