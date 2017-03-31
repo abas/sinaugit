@@ -105,10 +105,7 @@ untuk menghapus bracnh, kita cukup menambahkan **```-b```** diikuti dengan ```na
 ```
 	$ git checkout editer
 ```
-<<<<<<< HEAD
 Maka kita sudah berpindah pada branch ```editor``` ada beberapa rule dalam penggunaan branch. membahas point sebelumnya __```Branching```___ digunakan untuk memanage tugas/project agar terstruktur, biasanya dalam melakukan project dilakukan banyak Pencabangan / ```Branching``` hal ini bertujuan agar tidak ```saling tumbuk	```
-=======
-Maka kita sudah berpindah pada branch ```editor``` ada beberapa rule dalam penggunaan branch. membahas point sebelumnya __```Branching```___ digunakan untuk memanage tugas/project agar terstruktur, biasanya dalam melakukan project dilakukan banyak Pencabangan / ```Branching``` hal ini bertujuan agar tidak ```saling tumbuk```
 
 > ada beberapa perintah unik dalam ```$ git checkout``` yaitu melakukan perpindahan branch sekaligus menambah branch baru. berikut command line nya
 
