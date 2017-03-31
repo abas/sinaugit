@@ -117,7 +117,7 @@ dan kita ingin menambahkan branch baru, kita tidak perlu melakukan proses dua ka
 ```
 	$ git checkout contributor
 ```
-disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automatis checkout ke branch tersebut, bisa di cek dengan melakukan perintah ```**$ git branch**```
+disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automatis checkout ke branch tersebut, bisa di cek dengan melakukan perintah **```$ git branch```**
 
 > branch
 
@@ -128,4 +128,5 @@ disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automati
 kemudian coba melakukan perintah ```$ git status```
 >status on branch
 * contributor
+
 noting to commit bla bloa bla...
