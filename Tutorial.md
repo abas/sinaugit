@@ -46,7 +46,7 @@ kemudia kalian merubah menjadi :
 ```
 jika kalian melakukan ```$ git status``` maka akan muncul informasi ```modified : .ubah1``` dengan tulisan warna merah
 
-### Penambahan Track-File
+### Penambahan Tracked-File
 
 ```
 	$ git add %name_file
