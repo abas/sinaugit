@@ -100,3 +100,32 @@ maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch y
 	$ git checkout editer
 ```
 Maka kita sudah berpindah pada branch ```editor``` ada beberapa rule dalam penggunaan branch. membahas point sebelumnya __```Branching```___ digunakan untuk memanage tugas/project agar terstruktur, biasanya dalam melakukan project dilakukan banyak Pencabangan / ```Branching``` hal ini bertujuan agar tidak ```saling tumbuk	```
+
+> ada beberapa perintah unik dalam ```$ git checkout``` yaitu melakukan perpindahan branch sekaligus menambah branch baru. berikut command line nya
+
+```
+	$ git checkout **-b** %new-branch
+```
+misalkan repositori telah memiliki 2 buah bracnh, yaitu :
+>branch
+
+* master
+* editer
+
+dan kita ingin menambahkan branch baru, kita tidak perlu melakukan proses dua kali dengan ```$ git bracnh %new-branch``` kemudian ```$ git checkout %name-branch``` melainkan dengan melakukan perintah berikut :
+
+```
+	$ git checkout contributor
+```
+disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automatis checkout ke branch tersebut, bisa di cek dengan melakukan perintah ```**$ git branch**```
+
+> branch
+
+* master
+* editer
+* contributor <-- ini adalah branch baru
+
+kemudian coba melakukan perintah ```$ git status```
+>status on branch
+* contributor
+noting to commit bla bloa bla...
