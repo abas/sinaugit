@@ -82,7 +82,7 @@ untuk mengecek kita sedang berada dibranch mana bisa diketikan perintah
 ```
 	$ git status
 ```
-maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch yang telah kita buat bisa dengan perintah ```__$ git branch__``` kemudian untuk penambahan branch baru kita cukup menambahkan nama branch setelah command __branch__ misalnya kita ingin menambahkan branch dengan nama __nganu__ cukup ketikan perintah
+maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch yang telah kita buat bisa dengan perintah **```$ git branch```** kemudian untuk penambahan branch baru kita cukup menambahkan nama branch setelah command __branch__ misalnya kita ingin menambahkan branch dengan nama __nganu__ cukup ketikan perintah
 
 ```
 	$ git branch nganu
