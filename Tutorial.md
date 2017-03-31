@@ -88,3 +88,14 @@ maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch y
 	$ git branch __nganu__
 ```
 > voila! kita telah menambah kan branch baru dengan nama ```__nganu__```, bisa dicek dengan perintah ```$ git branch```
+
+
+### Perpindahan Branch
+```
+	$ git checkout %nama-branch
+```
+> seandainya kita memiliki 2 buah branch yaitu ```master``` dan ```editer``` posisi branch default kita itu terletak pada branch master, jika kita ingin mengubah atau pindah ke branch ```editer``` kita bisa menggunakan perintah tersebut
+
+```
+	$ git checkout editer
+```
