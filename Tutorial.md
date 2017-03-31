@@ -136,8 +136,7 @@ disini kita telah membuat bracnh baru dengan nama ```contributor``` dan automati
 
 kemudian coba melakukan perintah ```$ git status```
 >status on branch
->* contributor
+>* contributor <br>
 >noting to commit bla bloa bla...
 
 ###
->>>>>>> contrib
