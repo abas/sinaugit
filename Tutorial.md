@@ -89,6 +89,12 @@ maka akan muncul status branch saat ini. dan untuk melakukan pengecekan branch y
 ```
 > voila! kita telah menambah kan branch baru dengan nama **```nganu```**, bisa dicek dengan perintah ```$ git branch```
 
+untuk menghapus bracnh, kita cukup menambahkan **```-b```** diikuti dengan ```nama-branch``` yang ingin dihapus setelah ```$ git branch``` misal kita ingin menghapus bracnh ```editer``` maka tulisan perintah seperti berikut :
+
+```
+	$ git branch -d editer <-- ini nama branch
+```
+
 
 ### Perpindahan Branch
 ```
@@ -129,3 +135,5 @@ kemudian coba melakukan perintah ```$ git status```
 >status on branch
 >* contributor
 >noting to commit bla bloa bla...
+
+###
